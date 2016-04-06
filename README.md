@@ -7,7 +7,7 @@ let names = ['Larry', 'Curly', 'Moe'];
 let removeName = (name)=> {
   //indexOf finds where the string is on the array
   let i = names.indexOf(name)
-  //splice finds  
+  //splice removes index#, how many to remove
   return names.splice(i, 1);
 }
 let addName = (name)=> {
